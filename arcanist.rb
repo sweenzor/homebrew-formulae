@@ -2,7 +2,7 @@ require 'formula'
 
 class Arcanist < Formula
   homepage 'http://phabricator.org'
-  url 'https://github.com/phacility/arcanist.git'
+  url 'https://github.com/phacility/arcanist.git', :using => :git
   version 'head'
 
   def install
