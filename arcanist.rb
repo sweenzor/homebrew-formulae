@@ -2,13 +2,11 @@ require 'formula'
 
 class Arcanist < Formula
   homepage 'http://phabricator.org'
-  url 'https://github.com/phacility/arcanist.git', :using => :git
-  version 'head'
 
   def install
 
     # clone arcanist
-    system 'git', 'clone', url
+    system 'git', 'clone', 'https://github.com/phacility/arcanist.git'
 
     # clone libphutil into arcanist's includes
     cd 'arcanist/externals/includes' do
