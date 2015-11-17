@@ -12,7 +12,7 @@ class Arcanist < Formula
 
     # clone libphutil into arcanist's includes
     cd 'arcanist/externals/includes' do
-      system 'git', 'clone', 'https://github.com/facebook/libphutil.git'
+      system 'git', 'clone', 'https://github.com/phacility/libphutil.git'
     end
 
     # copy the whole cloned dir (including includes) to Cellar
