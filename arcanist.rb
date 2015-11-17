@@ -2,7 +2,10 @@ require 'formula'
 
 class Arcanist < Formula
   homepage 'http://phabricator.org'
+
+  # the releases (below) are super out of date, but homebrew needs these in the definition
   url 'https://github.com/phacility/arcanist/archive/conduit-5.tar.gz'
+  sha256 '81a9599f0799f4a2b77a01ddb35275894b82d8e51f437b51f9342affd029aa8b'
 
   def install
 
