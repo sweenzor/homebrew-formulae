@@ -2,6 +2,7 @@ require 'formula'
 
 class Arcanist < Formula
   homepage 'http://phabricator.org'
+  url 'https://github.com/phacility/arcanist/archive/conduit-5.tar.gz'
 
   def install
 
